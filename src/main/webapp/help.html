@@ -1,0 +1,325 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Help</title>
+<meta name="description" content="Data Anonymizer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" href="apple-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/themify-icons.css">
+<link rel="stylesheet" href="assets/css/flag-icon.min.css">
+<link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+<!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
+<link rel="stylesheet" href="assets/scss/style.css">
+<link href="assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
+
+<link
+	href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800'
+	rel='stylesheet' type='text/css'>
+
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
+<style>
+.hide_file {
+	position: relative;
+	z-index: 1000;
+	opacity: 0;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	font-size: 24px;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+
+
+	<!-- Left Panel -->
+
+	<aside id="left-panel" class="left-panel">
+		<nav class="navbar navbar-expand-sm navbar-default">
+
+			<div class="navbar-header">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#main-menu" aria-controls="main-menu"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand"><img src="images/logo.png" alt="Logo"></a>
+				<a class="navbar-brand hidden" href="./"><img
+					src="images/images.png" alt="Logo"></a>
+			</div>
+
+			<div id="main-menu" class="main-menu collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li>
+                        <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    </li>
+                    
+                  	<li class="menu-item-has-children dropdown">
+                        <a href="tool.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bars"></i>Tool</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-folder"></i><a href="sources.html">Data Sources</a></li>
+                            <li><i class="menu-icon fa fa-wrench"></i><a href="configs.html">Configutations</a></li>
+							<li><i class="menu-icon fa fa-users"></i><a href="Anonymizer.html">Anonymizer</a></li>
+							
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Statistics</a>
+                    </li>
+					<li class="active"><a href="help.html"><i class="menu-icon fa fa-question"></i>Help</a></li>
+                
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</nav>
+	</aside>
+	<!-- /#left-panel -->
+
+	<!-- Left Panel -->
+
+	<!-- Right Panel -->
+
+	<div id="right-panel" class="right-panel">
+
+		<!-- Header-->
+		<header id="header" class="header">
+
+			<div class="header-menu">
+
+				<div class="col-sm-7">
+					<a id="menuToggle" class="menutoggle pull-left"><i
+						class="fa fa fa-tasks"></i></a>
+					<div class="header-left">
+						<button class="search-trigger">
+							<i class="fa fa-search"></i>
+						</button>
+						<div class="form-inline">
+							<form class="search-form">
+								<input class="form-control mr-sm-2" type="text"
+									placeholder="Search ..." aria-label="Search">
+								<button class="search-close" type="submit">
+									<i class="fa fa-close"></i>
+								</button>
+							</form>
+						</div>
+
+
+
+
+					</div>
+				</div>
+
+				<div class="col-sm-5">
+					<div class="user-area dropdown float-right">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> <img
+							class="user-avatar rounded-circle" src="images/admin.png"
+							alt="User Avatar">
+						</a>
+
+						<div class="user-menu dropdown-menu">
+							<a class="nav-link" href="#"><i class="fa fa- user"></i>My
+								Profile</a> <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications
+							</a> <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
+
+							<a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+		<!-- /header -->
+		<!-- Header-->
+
+		<div class="breadcrumbs">
+			<div class="col-sm-4">
+				<div class="page-header float-left">
+					<div class="page-title">
+						<h1>How to Use</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content mt-12">
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h5 class="mb-0">
+							<button class="btn btn-link" data-toggle="collapse"
+								data-target="#collapseOne" aria-expanded="true"
+								aria-controls="collapseOne">Dashboard</button>
+						</h5>
+					</div>
+
+					<div id="collapseOne" class="collapse show"
+						aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body">This is showing two buttons telling
+							about DataSources and Configurations. Clicking on anyone will
+							take you to the corresponding pages.</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseTwo" aria-expanded="false"
+								aria-controls="collapseTwo">Data Sources</button>
+						</h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+						data-parent="#accordion">
+						<div class="card-body">The options for inputting data using
+							various sources is in this page. One can either use XLS, CSV or
+							JDBC to input data to the anonymizer. There are options in the
+							page to proceed with any of this.</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseThree" aria-expanded="false"
+								aria-controls="collapseThree">Configuration</button>
+						</h5>
+					</div>
+					<div id="collapseThree" class="collapse"
+						aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							In order to anonymize a dataset, an configuration has to be
+							maintained. Configuration includes the details of attribute types
+							in the data, Heirarchies in a dataset, Restriction sensitivity of
+							the attributes and the model being chosen for the anonymization.
+							The privacy model are of three types here, K-Anonymization,
+							l-diversity and t-closeness. <br> <br> <b>Supported
+								attribute types:</b><br> Identifying attributes will be removed
+							from the dataset.<br> Quasi-identifying attributes will be
+							transformed.<br> Sensitive attributes will be kept as-is but
+							they can be protected using privacy models, such as t-closeness
+							or l-diversity.<br> Insensitive attributes will be kept
+							unmodified. <br> <br>
+							<b> Supported data types:</b><br> String: a generic sequence
+							of characters. This is the default data type. <br> Integer:
+							a data type for numbers without a fractional component.<br>
+							Decimal: a data type for numbers with fractional component. <br>
+							Date/time: a data type for dates (with or without time). <br>
+							Ordinal: string variables with an ordinal scale. <br> <br>
+							<b>Heirarchies</b>: One has to add heirarchies in order to
+							generalize the quasi-identifying attributes. It can be either
+							added in a .csv format or can be manually written in the
+							configuration panel. It is generally a interval based heirarchy.
+							e.g. an age of 15 can be generalized as an age between 10 and 15
+							and can be written as 10-15. <br> <br> <b>Privacy
+								Models</b>: <br> K- Anonymity: This well-known privacy model
+							aims at protecting datasets from re-identification in the
+							prosecutor model. A dataset is k-anonymous if each record cannot
+							be distinguished from at least k-1 other records regarding the
+							quasi-identifiers. Each group of indistinguishable records forms
+							a so-called equivalence class. More information can be found <a
+								href="http://dx.doi.org/10.1142/S0218488502001648">here</a>. <br>
+							<br> ℓ- Diversity: This privacy model can be used to protect
+							data against attribute disclosure by ensuring that each sensitive
+							attribute has at least ℓ "well represented" values in each
+							equivalence class. Different variants, which implement different
+							measures of diversity, have been proposed of which the following
+							are supported by the software: distinct-ℓ-diversity,
+							recursive-(c, ℓ)-diversity as well as entropy-ℓ-diversity with
+							two different estimators (Shannon or Grassberger). More
+							information can be found <a
+								href="http://dx.doi.org/10.1145/1217299.1217302">here</a> and <a
+								href="http://dx.doi.org/10.1007/978-3-319-45381-1_11">here</a>.
+							<br>
+							<br> t-closeness: This privacy model can also be used to
+							protect data from attribute disclosure. It requires that the
+							distributions of values of a sensitive attribute within each
+							equivalence class must have a distance of not more than t to the
+							distribution of the attribute values in the input dataset. For
+							this purpose, it bounds the cumulative absolute difference
+							between the frequency distributions, which is calculated using
+							the earth mover's distance (EMD). Different variants have been
+							proposed for variables with different data types: (1) equal
+							ground distance considers all values to be equally distant from
+							each other, (2) hierarchical ground distance utilizes value
+							generalization hierarchies to determine the distance between
+							values and (3) ordered ground distance calculates distances based
+							on the order of values. More information can be found <a href="http://dx.doi.org/10.1109/ICDE.2007.367856">here</a>.
+							
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<!-- .content -->
+
+
+
+
+	<!-- /#right-panel -->
+
+	<!-- Right Panel -->
+
+	<script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+
+
+
+
+
+
+	<script src="assets/js/main.js"></script>
+
+
+	<script src="assets/js/lib/chart-js/Chart.bundle.js"></script>
+	<script src="assets/js/dashboard.js"></script>
+	<script src="assets/js/widgets.js"></script>
+	<script src="assets/js/lib/vector-map/jquery.vmap.js"></script>
+	<script src="assets/js/lib/vector-map/jquery.vmap.min.js"></script>
+	<script src="assets/js/lib/vector-map/jquery.vmap.sampledata.js"></script>
+	<script src="assets/js/lib/vector-map/country/jquery.vmap.world.js"></script>
+	<script>
+		(function($) {
+			"use strict";
+
+			jQuery('#vmap').vectorMap({
+				map : 'world_en',
+				backgroundColor : null,
+				color : '#ffffff',
+				hoverOpacity : 0.7,
+				selectedColor : '#1de9b6',
+				enableZoom : true,
+				showTooltip : true,
+				values : sample_data,
+				scaleColors : [ '#1de9b6', '#03a9f5' ],
+				normalizeFunction : 'polynomial'
+			});
+		})(jQuery);
+	</script>
+
+</body>
+</html>

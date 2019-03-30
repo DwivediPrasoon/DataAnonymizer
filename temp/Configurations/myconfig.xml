@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+	xmlns="http://www.iiitb.ac.in/config"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.iiitb.ac.in/config config.xsd">
+<AttributeData><Attribute attribute_name = "dept ">
+		<AttributeType>Sensitive</AttributeType>
+		<DataType>String</DataType>
+	</Attribute><Attribute attribute_name = "id ">
+		<AttributeType>Identifying</AttributeType>
+		<DataType>Integer</DataType>
+	</Attribute><Attribute attribute_name = "name ">
+		<AttributeType>Identifying</AttributeType>
+		<DataType>String</DataType>
+	</Attribute><Attribute attribute_name = "salary ">
+		<AttributeType>Sensitive</AttributeType>
+		<DataType>Integer</DataType>
+	</Attribute><Attribute attribute_name = "start_date ">
+		<AttributeType>Insensitive</AttributeType>
+		<DataType>String</DataType>
+	</Attribute></AttributeData><PrivacyModel>
+	<Model k="2">k-Anonymity</Model>
+	<SurpressionRate>34</SurpressionRate>
+</PrivacyModel>
+</config>
